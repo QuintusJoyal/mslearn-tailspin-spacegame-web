@@ -6,7 +6,7 @@
 trigger: [ build-agent, main ]
 
 pool:
-  name: 'Azure Pipelines'
+  name: 'Default'
 
 variables:
   buildConfiguration: 'Release'
